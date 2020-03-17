@@ -41,3 +41,11 @@
 
 ### Q. 퀴즈 세부 사항에 '5회 시도가 남음' 이라고 나와있는데 무슨 의미인지 궁금합니다.
 A. 퀴즈를 다 풀고 제출하면 1번 시도인데요. 문제를 풀 수 있는 기회가 5번 있다는 것입니다. 그 중에서 가장 높은 점수가 성적에 입력됩니다.
+
+### Q. (윈도우 환경) jupyter notebook을 입력하고 enter를 누른 결과 아래 사진과 같이 "ImportError: DLL load failed: 지정된 프로시저를 찾을 수 없습니다." 에러가 출력되고, 웹 브라우저가 실행되지 않습니다.
+
+![pysqlite_error](./image/pysqlite2_error.JPG)
+
+A. 프로그램 실행에 필요한 DLL 파일이 없어서 생기는 문제로, [링크](https://1drv.ms/u/s!AuS4E8bOdN2BlpR1Svd-tl6JueMG5w?e=XKFJ1k)에 가셔서 윈도우 32비트라면 sqlite-dll-win32-x86-3310100.zip 파일을, 윈도우 64비트라면 sqlite-dll-win64-x64-3310100.zip 파일을 다운로드 받아 압축을 해제합니다.
+
+파일 두 개가 나오는데, 둘 다 C:\Windows\System32 에 파일을 붙여넣고 다시 주피터 노트북을 실행해보시기 바랍니다.
