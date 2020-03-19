@@ -49,3 +49,9 @@ A. 퀴즈를 다 풀고 제출하면 1번 시도인데요. 문제를 풀 수 있
 A. 프로그램 실행에 필요한 DLL 파일이 없어서 생기는 문제로, [링크](https://1drv.ms/u/s!AuS4E8bOdN2BlpR1Svd-tl6JueMG5w?e=XKFJ1k)에 가셔서 윈도우 32비트라면 sqlite-dll-win32-x86-3310100.zip 파일을, 윈도우 64비트라면 sqlite-dll-win64-x64-3310100.zip 파일을 다운로드 받아 압축을 해제합니다.
 
 파일 두 개가 나오는데, 둘 다 C:\Windows\System32 에 파일을 붙여넣고 다시 주피터 노트북을 실행해보시기 바랍니다.
+
+### Q. (윈도우 환경, 한글 이름 사용자) 설치 경로를 영문으로만 해서 설치했으나 콘다가 동작하지 않으며 아래 그림과 같이, UnicodeEncodeError: 'charmap' codec can't encode characters in position ... 에러가 납니다(아래 그림의 1번).
+
+![korean_user_error](./image/korean_user_error.png)
+
+A. 콘다 설치에서 사용자 설정용 파일의 경로(위 그림의 2번)에 한글 때문에 인코딩 에러가 발생 합니다. 영문으로 된 사용자를 추가해서 다시 설치하시면 제대로 동작합니다. (만약 영문으로 된 사용자를 추가하지 않고, 한글 사용자를 그대로 사용하려면, 설치할 때 영문으로만 된 경로에 설치하며, "Just Me" 가 아니라 "All Users" 로 설치하면 된다고 합니다. 요건 정말 그런지 **재확인 필요**)
