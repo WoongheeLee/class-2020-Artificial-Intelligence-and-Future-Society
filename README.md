@@ -57,6 +57,9 @@
 
 (수강생 질문을 시간 역순으로 배치)
 
+### [보충 자료](https://github.com/WoongheeLee/class-2020-Artificial-Intelligence-and-Future-Society/tree/master/appendix)
+* 질문을 토대로 추가적인 설명을 노트북으로 만들어두었습니다.
+
 ### Q. eval이라는 함수는 언제 사용되고, 쓰임새가 궁금합니다.
 
 A. eval(expression,[globals[,locals]]) 문법으로 사용합니다. expression 은 실행 가능한 문자열을 입력 받아 이를 실행하도록 합니다. 예를 들어 코드에서 정의해둔 변수를 입력할 수도 있고, 내장함수를 쓸 수도 있습니다. 그러나 시스템 공격에도 사용될 수 있기 때문에 안전한 코딩을 위해서는 되도록 사용을 지양하시면 좋겠습니다. 자세한 예제와 설명은 <u>***[링크](./appendix/appendix_eval.ipynb)***</u>의 보충 설명 노트북을 참고바랍니다.
